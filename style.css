@@ -1,0 +1,160 @@
+/* 🌐 General Page Styling */
+body {
+    font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #c3e0ff, #f5faff, #e6f7ff);
+    margin: 0;
+    padding: 0;
+}
+
+/* 🌟 Page Title */
+h2 {
+    text-align: center;
+    color: #004c91;
+    margin-top: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    text-transform: uppercase;
+}
+
+/* 🧾 Form Container */
+form {
+    background: #ffffff;
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 30px 45px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px rgba(0, 90, 160, 0.15);
+    border-top: 8px solid #007bff;
+    transition: 0.3s ease;
+}
+
+form:hover {
+    box-shadow: 0px 0px 35px rgba(0, 90, 160, 0.25);
+}
+
+/* 📘 Fieldset Design */
+fieldset {
+    border: 2px solid #1e90ff;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background: linear-gradient(145deg, #ffffff, #f4faff);
+    transition: 0.3s ease;
+}
+
+fieldset:hover {
+    border-color: #005bb5;
+    background: linear-gradient(145deg, #f9fcff, #ffffff);
+}
+
+/* 🏷️ Legend Styling */
+legend {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #007bff;
+    padding: 6px 14px;
+    background: #eaf4ff;
+    border-radius: 8px;
+    border: 1px solid #b3d7ff;
+    text-shadow: 1px 1px 2px #d0eaff;
+}
+
+/* 🏫 Labels */
+label {
+    display: inline-block;
+    width: 220px;
+    font-weight: 600;
+    color: #003b73;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+label:hover {
+    color: #007bff;
+}
+
+/* ✏️ Input, Select, and Textarea */
+input[type="text"],
+select,
+textarea {
+    width: 60%;
+    padding: 10px 12px;
+    border: 1.5px solid #b3d7ff;
+    border-radius: 6px;
+    background: #f9fcff;
+    font-size: 15px;
+    transition: 0.3s ease;
+    color: #004080;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0,123,255,0.3);
+    background: #ffffff;
+    outline: none;
+}
+
+textarea {
+    width: 70%;
+    height: 80px;
+    resize: none;
+}
+
+/* 📻 Radio Buttons */
+input[type="radio"] {
+    margin-right: 6px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* 🧾 Subheadings */
+h4 {
+    color: #004c91;
+    margin-top: 25px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* 🚀 Submit Button */
+input[type="submit"] {
+    background: linear-gradient(135deg, #007bff, #00a2ff);
+    color: white;
+    font-weight: bold;
+    padding: 14px 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 25px auto 10px;
+    box-shadow: 0 5px 15px rgba(0,123,255,0.3);
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(135deg, #0069d9, #0098f0);
+    box-shadow: 0 8px 20px rgba(0,123,255,0.5);
+    transform: translateY(-2px);
+}
+
+/* 📱 Responsive Layout */
+@media screen and (max-width: 768px) {
+    label {
+        display: block;
+        width: 100%;
+        margin-bottom: 6px;
+    }
+
+    input[type="text"],
+    select,
+    textarea {
+        width: 100%;
+    }
+
+    form {
+        padding: 20px;
+    }
+}

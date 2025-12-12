@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+
+    <!-- Linking External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>STUDENT REGISTRATION FORM</h2>
+
+    <form action="#" method="post">
+
+        <!-- Personal Details -->
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label>Name:</label>
+            <input type="text" name="name" placeholder="Enter your name"><br><br>
+
+            <label>Father Name:</label>
+            <input type="text" name="father_name" placeholder="Enter your Father's name"><br><br>
+
+            <label>CNIC:</label>
+            <input type="text" name="cnic" placeholder="Enter your CNIC number"><br><br>
+
+            <label>Contact:</label>
+            <input type="text" name="contact" placeholder="Enter your Cell number"><br><br>
+
+            <label>Whatsapp:</label>
+            <input type="text" name="whatsapp" placeholder="Enter your Whatsapp No"><br><br>
+
+            <label>Address:</label>
+            <input type="text" name="address" placeholder="Enter your full Address"><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+        </fieldset>
+
+        <!-- Educational Details -->
+        <fieldset>
+            <legend>Educational Details</legend>
+
+            <h4>Matric Details</h4>
+
+            <label>School Name:</label>
+            <input type="text" name="school_name" placeholder="Enter your School name"><br><br>
+
+            <label>Select Board:</label>
+            <select name="matric_board">
+                <option>Select</option>
+                <option>BESE Peshawar</option>
+                <option>BESE Kohat</option>
+                <option>BESE DI Khan</option>
+                <option>BESE Sindh</option>
+                <option>BESE Abotabad</option>
+                <option>Other</option>
+            </select><br><br>
+
+            <label>Group (Science/Arts):</label>
+            <input type="text" name="matric_group" placeholder="Type your Group"><br><br>
+
+            <label>Passing Year:</label>
+            <input type="text" name="matric_year" placeholder="Enter Passing year"><br><br>
+
+            <label>Board Roll Number:</label>
+            <input type="text" name="matric_roll" placeholder="Enter your Roll No"><br><br>
+
+            <label>Total Marks:</label>
+            <input type="text" name="matric_total" placeholder="Total Marks">
+            <label>Obtained Marks:</label>
+            <input type="text" name="matric_obtained" placeholder="Obtained Marks"><br><br>
+
+            <label>Percentage:</label>
+            <input type="text" name="matric_percentage" placeholder="%age">
+            <label>Grade:</label>
+            <input type="text" name="matric_grade" placeholder="Enter your Grade"><br><br>
+
+            <h4>Intermediate Details</h4>
+
+            <label>College/Institute Name:</label>
+            <input type="text" name="college_name" placeholder="Enter your College name"><br><br>
+
+            <label>Select Board:</label>
+            <select name="inter_board">
+                <option>Select</option>
+                <option>BESE Peshawar</option>
+                <option>BESE Kohat</option>
+                <option>BESE DI Khan</option>
+                <option>BESE Sindh</option>
+                <option>BESE Abotabad</option>
+                <option>Other</option>
+            </select><br><br>
+
+            <label>Group:</label>
+            <input type="text" name="inter_group" placeholder="Type your Group"><br><br>
+
+            <label>Passing Year:</label>
+            <input type="text" name="inter_year" placeholder="Enter Passing year"><br><br>
+
+            <label>Board Roll Number:</label>
+            <input type="text" name="inter_roll" placeholder="Enter your Roll No"><br><br>
+
+            <label>Total Marks:</label>
+            <input type="text" name="inter_total" placeholder="Total Marks">
+            <label>Obtained Marks:</label>
+            <input type="text" name="inter_obtained" placeholder="Obtained Marks"><br><br>
+
+            <label>Percentage:</label>
+            <input type="text" name="inter_percentage" placeholder="%age">
+            <label>Grade:</label>
+            <input type="text" name="inter_grade" placeholder="Enter your Grade"><br><br>
+        </fieldset>
+
+        <!-- Family Details -->
+        <fieldset>
+            <legend>Family Details</legend>
+
+            <label>Father Name:</label>
+            <input type="text" name="father_name_family" placeholder="Enter your Father's name"><br><br>
+
+            <label>Father Contact:</label>
+            <input type="text" name="father_contact" placeholder="Enter your Father's Cell No"><br><br>
+
+            <label>Father CNIC:</label>
+            <input type="text" name="father_cnic" placeholder="Enter your Father's CNIC"><br><br>
+
+            <label>Guardian Name:</label>
+            <input type="text" name="guardian_name" placeholder="Enter your Guardian's name"><br><br>
+
+            <label>Guardian Contact:</label>
+            <input type="text" name="guardian_contact" placeholder="Enter your Guardian's contact"><br><br>
+
+            <label>Emergency Contact:</label>
+            <input type="text" name="emergency_contact" placeholder="Enter Emergency contact"><br><br>
+
+            <label>No. of Siblings:</label>
+            <input type="text" name="siblings" placeholder="Number of Siblings"><br><br>
+
+            <label>Position:</label>
+            <input type="text" name="sibling_position" placeholder="Your position among siblings"><br><br>
+
+            <label>Current Address:</label><br>
+            <textarea name="current_address" placeholder="Enter your Current Address"></textarea><br><br>
+
+            <label>Permanent Address:</label><br>
+            <textarea name="permanent_address" placeholder="Enter your Permanent Address"></textarea><br>
+        </fieldset>
+
+        <!-- Monthly Income Details -->
+        <fieldset>
+            <legend>Monthly Income Details</legend>
+
+            <label>Father's Occupation:</label>
+            <select name="father_occupation">
+                <option>Select</option>
+                <option>Employee</option>
+                <option>Businessman</option>
+                <option>Recruiter</option>
+                <option>Labour</option>
+                <option>Others</option>
+            </select><br><br>
+
+            <label>Father's Monthly Income:</label>
+            <input type="text" name="father_income" placeholder="Father's Monthly Income"><br><br>
+
+            <label>Guardian's Occupation:</label>
+            <select name="guardian_occupation">
+                <option>Select</option>
+                <option>Employee</option>
+                <option>Businessman</option>
+                <option>Recruiter</option>
+                <option>Labour</option>
+                <option>Nil</option>
+                <option>Others</option>
+            </select><br><br>
+
+            <label>Guardian's Monthly Income:</label>
+            <input type="text" name="guardian_income" placeholder="Guardian's Monthly Income"><br><br>
+
+            <label>Total Monthly Income:</label>
+            <input type="text" name="total_income" placeholder="Total Monthly Income"><br>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
